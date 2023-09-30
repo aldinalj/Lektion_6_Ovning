@@ -1,12 +1,13 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
-        try {
+        /* try {
             System.out.println(2 / 0);
         } catch (Exception error) {
             System.out.println("Wtf is a kilometer?");
         }
-
 
         try {
             for (int i = 0; i < 2 / 0; i++) {
@@ -24,7 +25,12 @@ public class Main {
             }
         } catch (Exception error) {
             System.out.println("Do you wear wigs?");
-        }
+        } */
 
+        int [] scores = {0, 155, 500};
+
+        for (int i = 0; i < scores.length; i++) {
+            System.out.println(i);
+        }
     }
 }
